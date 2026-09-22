@@ -1,0 +1,98 @@
+package mightyfive;
+import java.util.Scanner;
+
+public class Main {
+
+	private static final double budget = 0;
+	private static final int choice = 0;
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+
+		
+		// DO-WHILE LOOP
+        do {
+            System.out.println(" Smart Budget Tracker");
+            System.out.println(" Calculate Average Weekly/Monthly Expenses");
+            System.out.println("Exit");
+            System.out.print("Enter your choice");
+           while(budget>54) {
+        	  
+           };
+           
+        
+            choice = scanner.nextInt();
+            if (choice == 1) {
+                System.out.print("Enter your total monthly budget");
+                double budget =scanner.nextDouble();
+
+                double totalExpenses = 0;
+                double expense;
+            };
+        
+            
+            
+                // WHILE LOOP
+            double expense=2;
+                System.out.println("Enter expenses one by one (enter -1 to finish):");
+                while (true) {
+                    System.out.print("Expense amount: ");
+                    expense = scanner.nextDouble();
+                    if (expense == -1) break;
+                    expense += expense; 
+                }
+                
+                
+
+                // FOR LOOP
+                double expenses=2;
+                System.out.println("Week Expense Breakdown");
+                double weeklyAverage = expenses / 4;
+                for (int week = 1; week <= 4; week++) {
+                    System.out.println("Week " + week + "estimated share" + weeklyAverage);
+                }
+        		
+                
+                
+      		  // 4. TERNARY STATEMENT: Evaluate budget status
+              String status = (expenses <= budget)? 
+              		"Status: Within Budget" 
+              		: "Status: Over Budget ";
+              System.out.println("Total Spent" + expenses);
+              System.out.println(status);
+
+          
+        while (choice != 2);
+
+      System.out.println("Thank you for your trust");
+      
+      scanner.close();
+      }
+        }
+                  
+        
+	
+	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+
+
